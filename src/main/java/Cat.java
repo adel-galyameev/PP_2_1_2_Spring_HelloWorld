@@ -1,6 +1,10 @@
 public class Cat {
     private String name;
     private int age;
+    
+    public Cat() {
+        
+    }
 
     public String getName() {
         return name;
@@ -16,8 +20,5 @@ public class Cat {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public Cat() {
     }
 }
